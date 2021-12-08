@@ -1,0 +1,21 @@
+.searchBanner--banner-department-description {
+  flex-direction: column;
+  padding-left: 90px;
+  padding-right: 80px;
+}
+
+.searchBanner--banner-department {
+  flex-direction: column;
+}
+.searchBanner--banner-department :nth-child(2n) {
+  display: none;
+}
+.searchBanner--banner-department-description-mobile {
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.searchBanner--banner-department-description-mobile {
+  margin-left: 40px;
+  margin-right: 40px;
+}

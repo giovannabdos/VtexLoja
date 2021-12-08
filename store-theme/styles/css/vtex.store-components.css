@@ -1,0 +1,433 @@
+.notificationBarContainer {
+  background-color: #000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    max-width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    max-width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logoContainer .sizeDesktop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBarIcon {
+  background-color: blue;
+  padding: 14px 14px;
+}
+
+.searchIcon {
+  color: white;
+}
+
+:global(.vtex-input__suffix) {
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .searchBarContainer {
+    min-width: 500px;
+    margin-left: 240px;
+    margin-right: 150px;
+  }
+}
+.infoCardContainer--primeiro {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoCardTextContainer--primeiro {
+  order: 1;
+}
+
+.infoCardImageContainer--primeiro {
+  order: 0;
+}
+.imageElement--new {
+  width: 690px;
+  height: 520px;
+}
+.imageElement--sale {
+  width: 690px;
+  height: 520px;
+}
+
+.imageElementLink--salemobile {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 24px;
+  background-color: #fff;
+}
+.imageElementLink {
+  background-color: #fff;
+}
+.imageElementLink--newmobile {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 24px;
+}
+.imageElement--fretegratis {
+  margin-top: 30px;
+  width: 100%;
+}
+.imageElement--frete-gratis2 {
+  width: 1800px;
+  height: 220px;
+  margin-top: 30px;
+}
+.infoCardCallActionContainer :global(.vtex-button) {
+  background: transparent;
+  border-radius: 0px;
+  border: 1px solid black;
+  color: black;
+  padding: 16px 57px;
+  letter-spacing: 1.2px;
+}
+.imageElement--frete-gratis {
+  margin-top: 30px;
+  width: 100%;
+}
+.imageElement--deals-image {
+  margin-right: 10px;
+}
+.imageElemet--image-new {
+  width: 60px;
+  height: 40px;
+  padding-top: 15px;
+}
+.stretchChildrenWidth .imageElement--logo-fotter {
+  padding: 0;
+  justify-content: end;
+}
+.imageElement--facebook {
+  margin-right: 40px;
+  margin-top: 10px;
+  background-color: #eeeeee;
+}
+.imageElement--facebook2 {
+  margin-right: 40px;
+  margin-top: 10px;
+  background-color: #eeeeee;
+}
+.imageElement--insta2 {
+  margin-right: 40px;
+  margin-top: 20px;
+  background-color: #eeeeee;
+  margin-right: -150px;
+}
+.infoCardHeadline--primeiro {
+  color: #441afa;
+}
+
+.imageElement--cartao-mobile {
+  margin-left: 15px;
+}
+.imageElement--logo-mobile {
+  margin-left: 15px;
+}
+.imageElement--image-new-mobile {
+  margin-top: 16px;
+}
+.imageElement--logo-desktop {
+  margin-right: 15px;
+}
+.imageElement--cartao-desktop {
+  margin-right: 15px;
+}
+.imageElement--image-new {
+  margin-top: 10px;
+}
+.productBrand--quickview {
+  font-size: 16px;
+  font-weight: 700;
+}
+.productDescriptionTitle {
+  color: #441afa;
+  font-size: 18px;
+  font-weight: 700;
+}
+.shippingContainer :global(.vtex-input__label) {
+  font-size: 0;
+}
+.shippingContainer :global(.vtex-input__label)::after {
+  content: "FRETE E PRAZO DE ENTREGA";
+  font-size: 12px;
+  font-weight: 700;
+  color: #25282a;
+}
+.shippingContainer :global(.vtex__icon-external-link) {
+  display: none;
+}
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
+  font-size: 12px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.shippingTableCellDeliveryName {
+  color: #25282a;
+  font-size: 12px;
+}
+.shippingTableCellDeliveryEstimate {
+  color: #25282a;
+  font-size: 12px;
+}
+.shippingTableCellDeliveryPrice {
+  color: #25282a;
+  font-size: 12px;
+  font-weight: 700;
+}
+.title {
+  color: #441afa;
+  font-size: 14px;
+  font-weight: 700;
+}
+.subscribelabel {
+  color: #25282a;
+  font-size: 14px;
+}
+.inputName {
+  width: 351px;
+  height: 40px;
+  top: 382px;
+  left: 1076px;
+  border: 1px solid #eeeeee;
+  opacity: 1;
+}
+.inputEmail {
+  width: 351px;
+  height: 40px;
+  top: 382px;
+  left: 1076px;
+  border: 1px solid #eeeeee;
+  opacity: 1;
+}
+
+.imageElement--logo-fotter {
+  width: 50px;
+  height: 20px;
+  align-self: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: -300px;
+}
+.imageElement--logo-fotter2 {
+  width: 50px;
+  height: 40px;
+  justify-content: flex-start;
+  margin-left: -300px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.frameAround {
+  border-color: #b1b3b3;
+}
+.skuSelectorInternalBox {
+  border-color: #fff;
+}
+.shippingTableLabel {
+  font-size: 11px;
+}
+.shippingTableCell {
+  font-size: 11px;
+}
+.shippingContainer :global(.vtex-button) {
+  background-color: #000;
+  color: #fff;
+  width: 370px;
+  height: 50px;
+}
+.swiperBullet--active {
+  background-color: #25282a;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageElementLink {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.imageElementLink--facebook2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 40px;
+  background-color: #eeeeee;
+}
+.imageElement--catalogo-desktop {
+  width: 50%;
+  height: 100%;
+  margin-bottom: 200px;
+}
+
+.imageElement--catalogo-desktop {
+  width: 400px;
+  height: 400px;
+}
+.productBrand--quickview- {
+  font-size: 12px;
+  color: #25282a;
+}
+.productNameContainer--quickview-buy-box {
+  margin-top: 6px;
+  margin-left: 14px;
+}
+.productImagesContainer--buy-box--carousel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.carouselGaleryThumbs--buy-box {
+  margin-left: 30px;
+}
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.infoCardContainer--primeiro2 {
+  background-color: #f5f6f6;
+  margin-top: 20px;
+}
+.infoCardHeadline--primeiro2 {
+  color: #441afa;
+  align-items: initial;
+}
+.infoCardSubhead--primeiro2 {
+  width: 400px;
+  text-align: left;
+}
+.infoCardCallActionContainer--primeiro2 {
+  align-items: initial;
+}
+.infoCardTextContainer--primeiro2 {
+  align-items: flex-start;
+}
+.infoCardTextContainer--primeiro2 {
+  margin-left: 80px;
+}
+.imageElementLink--insta2 {
+  background-color: #eee;
+}
+.imageElementLink--facebook {
+  background-color: #eee;
+}
+.imageElement--cupom-desconto {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+}
+.imageElement--cupom-desconto-mobile {
+  width: 80%;
+  margin-left: 40px;
+}

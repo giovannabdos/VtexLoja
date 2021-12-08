@@ -1,0 +1,23 @@
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--quickview {
+  right: 0;
+  top: 0;
+  left: auto;
+}
+.stackItem--add-hart{
+  right: 0;
+  top: 0;
+  left: auto;
+}
+.stackItem--icon-heart{
+  justify-content: end;
+  align-items: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+.stackItem--inovacao{
+  margin-top: 30px;
+}

@@ -1,0 +1,8 @@
+.wishlistIcon--add-hart{
+  background: url("assets/img/desktop/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}

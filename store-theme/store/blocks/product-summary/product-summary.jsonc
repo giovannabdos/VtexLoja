@@ -1,0 +1,171 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "flex-layout.col#productRating",
+      "product-summary-space",
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary",
+      "flex-layout.row#quanti-add-cart"
+    ]
+  },
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating"
+    },
+    "children": ["product-rating-inline"]
+  },
+
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights#novidades",
+      "vtex.product-highlights@2.x:product-highlights#inovacao",
+      "add-to-list-btn"
+    ]
+  },
+  "add-to-list-btn": {
+    "props": {
+      "blockClass": "add-hart"
+    }
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#novidades": {
+    "props": {
+      "type": "collection",
+      "blockClass": "novidades",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Novidade"]
+      }
+    },
+    "children": ["product-highlight-text#novidade"]
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#inovacao": {
+    "props": {
+      "type": "collection",
+      "blockClass": "inovacao",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Inovação"]
+      }
+    },
+    "children": ["product-highlight-text#inovacao"]
+  },
+  "product-highlight-text#novidade": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "novidade"
+    }
+  },
+  "product-highlight-text#inovacao": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "inovacao"
+    }
+  },
+
+  // "vtex.product-highlights@2.x:product-highlights#sale": {
+    // "props": {
+      // "type": "collection"
+    // },
+    // "children": ["product-highlight-wrapper"]
+  // },
+  // "product-highlight-wrapper": {
+    // "props": {
+      // "blockClass": "collection"
+    // },
+    // "children": ["product-highlight-text"]
+  // },
+  // "product-highlight-text": {
+    // "props": {
+      // "blockClass": "highlight-text",
+      // "message": "Novidade"
+    // }
+  // },
+  // "vtex.product-highlights@2.x:product-highlights#inovacao": {
+    // "props": {
+      // "type": "collection"
+    // },
+    // "children": ["product-highlight-wrapper#inovacao"]
+  // },
+  // "product-highlight-wrapper#inovacao": {
+    // "props": {
+      // "blockClass": "collection"
+    // },
+    // "children": ["product-highlight-text#inovacao"]
+  // },
+  // "product-highlight-text#inovacao": {
+    // "props": {
+      // "blockClass": "highlight-text",
+      // "message": "Inovação"
+    // }
+  // },
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "list-price"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": [
+      "product-selling-price#summary",
+      "product-price-savings#summary"
+    ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "price"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": ["discount"],
+      "message": "- {savingsPercentage}",
+      "blockClass": "savings"
+    }
+  },
+  "flex-layout.row#quanti-add-cart": {
+    "children": ["product-quantity#shelf", "add-to-cart-button"],
+    "props": {
+      "blockClass": "comprar3"
+    }
+  },
+  "add-to-cart-button": {
+    "props": {
+      "blockClass": "comprar",
+      "text": "Comprar"
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "blockClass": "comprar3",
+      "showLabel": false
+    }
+  },
+  "product-quantity#shelf": {
+    "props": {
+      "showLabel": false,
+      "blockClass": "comprar3"
+    }
+  }
+}

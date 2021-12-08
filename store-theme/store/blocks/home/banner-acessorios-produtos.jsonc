@@ -1,0 +1,151 @@
+{
+  "rich-text#title-banners": {
+    "props": {
+      "text": "TÍTULO DE BANNERS",
+      "blockClass": "titulo-de-banners"
+    }
+  },
+  "flex-layout.row#titulo-banner": {
+    "children": [
+      "flex-layout.row#eletronicos",
+      "flex-layout.row#roupas",
+      "flex-layout.row#acessorios"
+    ],
+    "props": {
+      "blockClass": "titulo-banner-produtos1"
+    }
+  },
+  "flex-layout.row#eletronicos": {
+    "children": ["image#eletronicos"],
+    "props": {
+      "blockClass": "imagem-esquerda"
+    }
+  },
+  "flex-layout.row#roupas": {
+    "children": ["image#roupas"],
+    "props": {
+      "blockClass": "imagem-center"
+    }
+  },
+  "flex-layout.row#acessorios": {
+    "children": ["image#acessorios"],
+    "props": {
+      "blockClass": "imagem-direita"
+    }
+  },
+  "image#eletronicos": {
+    "props": {
+      "src": "assets/img/desktop/Group6.png",
+      "blockClass": "imagem-esquerda"
+    }
+  },
+  "image#roupas": {
+    "props": {
+      "src": "assets/img/desktop/Group2.png",
+      "blockClass": "imagem-center"
+    }
+  },
+  "image#acessorios": {
+    "props": {
+      "src": "assets/img/desktop/Group4.png",
+      "blockClass": "imagem-direita"
+    }
+  },
+  "flex-layout.row#titulo-banner2": {
+    "children": [
+      "flex-layout.row#perfumes",
+      "flex-layout.row#cosmeticos",
+      "flex-layout.row#calcados"
+    ],
+    "props": {
+      "marginBottom": 7
+    }
+  },
+  "flex-layout.row#perfumes": {
+    "children": ["image#perfumes"],
+    "props": {
+      "blockClass": "imagem-esquerda"
+    }
+  },
+  "image#perfumes": {
+    "props": {
+      "src": "assets/img/desktop/Group1.png",
+      "blockClass": "imagem-esquerda"
+    }
+  },
+  "flex-layout.row#cosmeticos": {
+    "children": ["image#cosmeticos"],
+    "props": {
+      "blockClass": "imagem-center"
+    }
+  },
+  "flex-layout.row#calcados": {
+    "children": ["image#calcados"],
+    "props": {
+      "blockClass": "imagem-direita"
+    }
+  },
+  "image#cosmeticos": {
+    "props": {
+      "src": "assets/img/desktop/Group3.png",
+      "blockClass": "imagem-center"
+    }
+  },
+  "image#calcados": {
+    "props": {
+      "src": "assets/img/desktop/Group5.png",
+      "blockClass": "imagem-direita"
+    }
+  },
+  "slider-layout#acessorios-produtos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "flex-layout.row#eletronicos2",
+      "flex-layout.row#roupas2",
+      "flex-layout.row#acessorios2",
+      "flex-layout.row#perfumes2",
+      "flex-layout.row#cosmeticos2",
+      "flex-layout.row#calcados2"
+    ]
+  },
+  "flex-layout.row#eletronicos2": {
+    "children": ["image#eletronicos"],
+    "props": {
+      "blockClass": "imagem-esquerda"
+    }
+  },
+  "flex-layout.row#roupas2": {
+    "children": ["image#roupas"],
+    "props": {
+      "blockClass": "imagem-esquerda"
+    }
+  },
+  "flex-layout.row#acessorios2": {
+    "children": ["image#acessorios"],
+    "props": {
+      "blockClass": "imagem-esquerda"
+    }
+  },
+  "flex-layout.row#perfumes2": {
+    "children": ["image#perfumes"]
+  },
+  "flex-layout.row#cosmeticos2": {
+    "children": ["image#cosmeticos"]
+  },
+  "flex-layout.row#calcados2": {
+    "children": ["image#calcados"]
+  }
+}

@@ -1,0 +1,48 @@
+.formSubmitContainer--newsletter25 :global(.vtex-button) {
+  background: transparent;
+  color: #441afa;
+  border: none;
+}
+
+.input-newsletter {
+  background: transparent;
+  border-color: #b1b3b3;
+}
+.nameInputContainer--input-newsletter :global(.vtex-styleguide-9-x-input) {
+  background:transparent;
+  border-color: #b1b3b3;
+}
+.emailInputContainer--input-newsletter2 :global(.vtex-styleguide-9-x-input) {
+  background:transparent;
+  border-color: #b1b3b3;
+}
+
+.nameInputContainer--input-newsletter-mobile{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.emailInputContainer--input-newsletter-mobile{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.nameInputContainer--input-newsletter-mobile :global(.vtex-styleguide-9-x-input) {
+  background:transparent;
+  border-color: #b1b3b3;
+}
+.emailInputContainer--input-newsletter-mobile :global(.vtex-styleguide-9-x-input) {
+  background:transparent;
+  border-color: #b1b3b3;
+}
+.formSubmitContainer--newsletter25-mobile :global(.vtex-button) {
+  background: transparent;
+  color: #441afa;
+  border: none;
+}
+.nameInputContainer--text-Nao-Disponivel :global(.vtex-styleguide-9-x-input) {
+  background:transparent;
+  border-color: #EEEEEE 1px solid;
+}
+.emailInputContainer--text-Nao-Disponivel :global(.vtex-styleguide-9-x-input) {
+  background:transparent;
+  border-color: #EEEEEE 1px solid;
+}

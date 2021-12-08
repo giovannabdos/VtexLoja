@@ -1,0 +1,120 @@
+.styledLinkContent {
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.menuItem {
+  display: flex;
+  justify-content: space-between;
+}
+.styledLinkContent {
+  font-size: 12px;
+  justify-content: center;
+}
+
+.styledLinkContainer--menu25 {
+  background-color: #441afa;
+  margin-right: 25px;
+  justify-content: center;
+}
+
+.styledLinkContent--menu25 {
+  color: #ffffff;
+  padding-left: 60px;
+  padding-right: 40px;
+  line-height: 14px;
+}
+.styledLink--menu25 {
+  position: relative;
+  flex-direction: column;
+}
+.styledLink--menu25::before {
+  content: "";
+  background: url("assets/img/desktop/menu-branco.png");
+  height: 14px;
+  width: 17px;
+  position: absolute;
+  left: 28px;
+}
+
+.menuItem--menu25--isOpen {
+  flex-direction: column;
+}
+.menuItem--menu2 {
+  flex-direction: column;
+}
+.submenuWrapper--sub {
+  margin-left: 0;
+  top: -4px;
+}
+
+.submenuWrapper--categoria {
+  margin-left: 0;
+  top: -8px;
+}
+.styledLinkContent--accordion-mobile {
+  border: 1px solid #e9e9e9;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  color: #25282a;
+  font-weight: 700;
+}
+.accordionIcon--accordion-mobile {
+  margin-left: 150px;
+  color: #afafaf;
+}
+.styledLinkContent--accordion-tablet {
+  border: 1px solid #e9e9e9;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  color: #25282a;
+  font-weight: 700;
+}
+.accordionIcon--accordion-tablet {
+  margin-left: 260px;
+  color: #afafaf;
+}
+.menuItem--accordion-mobile {
+  flex-direction: column;
+}
+.styledLinkIcon--departamento {
+  padding-left: 120px;
+}
+.styledLinkContent--item-menu-novidades {
+  color: #25282a;
+  font-weight: bold;
+}
+.styledLinkContent--item-menu-cinza {
+  color: #25282a;
+}
+.styledLinkContent--item-menu-azul {
+  color: #441afa;
+  font-weight: bold;
+}
+.menuContainer--menu-item-mobile .menuItem {
+  border-bottom: 1px solid #f4f4f4;
+  padding: 15px 0;
+}
+.menuContainer--menu-item-mobile .menuItem--item-menu-cinza {
+  border-bottom: unset;
+}
+.menuContainer--menu-item-mobile .styledLinkContent {
+  font-size: 16px;
+  letter-spacing: 1.4px;
+}
+.menuContainerNav--menu-item-mobile {
+  width: 100%;
+}
+.styledLinkContainer--menu2-mobile {
+  width: 100%;
+}
+.styledLink--menu2-mobile .styledLinkContent {
+  justify-content: space-between;
+  padding-right: 0;
+}
+.styledLinkContent--fale-conosco {
+  font-weight: 700;
+  font-size: 20px;
+  color: #441afa;
+  padding-bottom: 10px;
+}

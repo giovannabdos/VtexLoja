@@ -1,0 +1,107 @@
+{
+  "store.custom#catalogo": {
+    "blocks": [
+      "responsive-layout.desktop#catalogo",
+      "responsive-layout.phone#catalogo",
+      "responsive-layout.tablet#catalogo"
+    ]
+  },
+  "responsive-layout.desktop#catalogo": {
+    "children": ["flex-layout.row#catalogo"],
+    "props": {
+      "blockClass": "desktop-catalogo"
+    }
+  },
+  "responsive-layout.phone#catalogo": {
+    "children": ["menu-item#aside", "flex-layout.row#catalogo-mobile"]
+  },
+  "responsive-layout.tablet#catalogo": {
+    "children": ["menu-item#aside", "flex-layout.row#catalogo-mobile"]
+  },
+  "flex-layout.row#catalogo-mobile": {
+    "children": ["flex-layout.col#text-catalogo-mobile"]
+  },
+  "flex-layout.row#catalogo": {
+    "children": [
+      "flex-layout.col#quem-somos-desktop",
+      "flex-layout.col#text-catalogo"
+    ],
+    "props": {
+      "blockClass": "desktop-catalogo2"
+    }
+  },
+  "flex-layout.col#text-catalogo": {
+    "children": [
+      "rich-text#title-catalogo",
+      "rich-text#catalogo",
+      "rich-text#catalogo2",
+      "image#catalogo"
+    ],
+    "props": {
+      "blockClass": "catalogo-descricao",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-catalogo": {
+    "props": {
+      "text": "# CATÁLOGO DIGITAL",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#catalogo": {
+    "props": {
+      "text": "A Vollo apresenta sua linha de produtos na forma de catálogo. \n \n",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#catalogo2": {
+    "props": {
+      "text": "Para acessar, clique nas imagens abaixo.",
+      "blockClass": "about"
+    }
+  },
+  "image#catalogo": {
+    "props": {
+      "src": "assets/img/desktop/seo2.png",
+      "blockClass": "catalogo-desktop"
+    }
+  },
+  "flex-layout.col#text-catalogo-mobile": {
+    "children": [
+      "rich-text#title-catalogo-mobile",
+      "rich-text#catalogo-mobile",
+      "rich-text#catalogo2-mobile",
+      "image#catalogo-mobile"
+    ],
+    "props": {
+      "blockClass": "catalogo-descricao",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-catalogo-mobile": {
+    "props": {
+      "text": "# CATÁLOGO DIGITAL",
+      "blockClass": "title-mobile"
+    }
+  },
+  "rich-text#catalogo-mobile": {
+    "props": {
+      "text": "A Vollo apresenta sua linha de produtos na forma de catálogo. \n \n",
+      "blockClass": "about-mobile"
+    }
+  },
+  "rich-text#catalogo2-mobile": {
+    "props": {
+      "text": "Para acessar, clique nas imagens abaixo.",
+      "blockClass": "about-mobile"
+    }
+  },
+  "image#catalogo-mobile": {
+    "props": {
+      "src": "assets/img/desktop/seo2.png",
+      "blockClass": "catalog-mobile"
+    }
+  }
+}

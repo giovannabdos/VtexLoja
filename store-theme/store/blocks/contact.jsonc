@@ -1,0 +1,292 @@
+{
+  "store.custom#contact-us": {
+    "children": ["flex-layout.row#contact-us"]
+  },
+
+  "flex-layout.row#contact-us": {
+    "props": {
+      "blockClass": "contact"
+    }
+  },
+
+  "flex-layout.col#contact-us": {
+    "children": [
+      // "rich-text#contact-us",
+      // "rich-text#faleConosco",
+      // "menu-item#numero1",
+      // "menu-item#numero2",
+      // "rich-text#horario",
+      // "form#contact-us"
+    ]
+  },
+
+  "rich-text#contact-us": {
+    "props": {
+      "text": "## CENTAL DE ATENDIMENTO",
+      "blockClass": "contact-rich"
+    }
+  },
+  "rich-text#faleConosco": {
+    "props": {
+      "text": "**Fale Conosco**",
+      "blockClass": "fale-conosco"
+    }
+  },
+  "menu-item#numero1": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/smartphones",
+        "noFollow": true,
+        "tagTitle": "Smartphones",
+        "text": "(xx) xxxx xxxx"
+      },
+      "blockClass": "fale-conosco"
+    }
+  },
+
+  "menu-item#numero2": {
+    "props": {
+      "id": "menu-item-videogames",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/videogames",
+        "noFollow": true,
+        "tagTitle": "Videogames",
+        "text": "(xx) xxxx xxxx"
+      },
+      "blockClass": "fale-conosco"
+    }
+  },
+  "rich-text#horario": {
+    "props": {
+      "text": "Segunda a Sábado \n 08h às 20h \n E-mail: sac@avanti.com.br",
+      "blockClass": "fale-conosco2"
+    }
+  },
+  "product-api": {
+    "props": {
+      "blockClass": "api"
+    }
+  },
+  "form#desktop": {
+    "props": {
+      "entity": "inovationentity",
+      "schema": "schemainovation",
+      "blockClass": "form"
+    },
+    "children": [
+      "rich-text#formTitle",
+      "rich-text#formTitle2",
+      "rich-text#formTitle3",
+      "flex-layout.row#name-desktop",
+      "flex-layout.row#email-desktop",
+      "flex-layout.row#submit"
+    ],
+    "blocks": ["form-success"]
+  },
+  "form-success": {
+    "children": ["rich-text#successSubmit", "rich-text#cupom2"]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Parabéns! Você acabou de ganhar um Cupom de 10%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sucess-submit"
+    }
+  },
+  "rich-text#cupom2": {
+    "props": {
+      "text": "AVANTICUPOM%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sucess2"
+    }
+  },
+  "rich-text#formTitle": {
+    "props": {
+      "text": "BEM VINDO AO ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "title-form"
+    }
+  },
+  "rich-text#formTitle2": {
+    "props": {
+      "text": "GIASSI SUPERMERCADO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "title-forms"
+    }
+  },
+  "rich-text#formTitle3": {
+    "props": {
+      "text": "Cadastre-se:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titleF"
+    }
+  },
+  "flex-layout.row#name-desktop": {
+    "children": ["form-input.text#name"],
+    "props": {
+      "blockClass": "name-desktop"
+    }
+  },
+  "form-input.text#name": {
+    "props": {
+      "pointer": "#/properties/name",
+      "blockClass": "input-name"
+    }
+  },
+  "flex-layout.row#email-desktop": {
+    "children": ["form-input.text#email"],
+    "props": {
+      "blockClass": "email-desktop"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email",
+      "blockClass": "input-email"
+    }
+  },
+  "flex-layout.row#submit": {
+    "children": ["form-submit"],
+    "props": {
+      "blockClass": "submit"
+    }
+  },
+  "form-submit": {
+    "props": {
+      "label": "Submit",
+      "blockClass": "submit-form"
+    }
+  },
+
+  "form#mobile": {
+    "props": {
+      "entity": "inovationentity",
+      "schema": "schemainovation",
+      "blockClass": "form"
+    },
+    "children": [
+      "rich-text#formTitle-mobile",
+      "rich-text#formTitle2-mobile",
+      "rich-text#formTitle3-mobile",
+      "flex-layout.row#name-mobile",
+      "flex-layout.row#email-mobile",
+      "flex-layout.row#submit-mobile"
+    ],
+    "blocks": ["form-success#mobile"]
+  },
+  "form-success#mobile": {
+    "children": [
+      "rich-text#successSubmit-mobile",
+      "rich-text#successSubmit2-mobile",
+      "rich-text#cupom-mobile"
+    ]
+  },
+  "rich-text#successSubmit-mobile": {
+    "title": "sucess-mobile",
+    "props": {
+      "text": "Parabéns! Você acabou de ganhar",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sucess-submit-mobile"
+    }
+  },
+  "rich-text#successSubmit2-mobile": {
+    "title": "sucess-mobile",
+    "props": {
+      "text": "um Cupom de 10%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sucess-cupom-mobile"
+    }
+  },
+  "rich-text#cupom-mobile": {
+    "title": "Cupom-mobile",
+    "props": {
+      "text": "AVANTICUPOM%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sucess-mobile"
+    }
+  },
+  "rich-text#formTitle-mobile": {
+    "title": "Bem-vindo-mobile",
+    "props": {
+      "text": "BEM VINDO AO ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "title-form-mobile"
+    }
+  },
+  "rich-text#formTitle2-mobile": {
+    "title": "giassi-mobile",
+    "props": {
+      "text": "GIASSI SUPERMERCADO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "title-forms-mobile"
+    }
+  },
+  "rich-text#formTitle3-mobile": {
+    "title": "Cadastre-mobile",
+    "props": {
+      "text": "Cadastre-se:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titleF-mobile"
+    }
+  },
+  "flex-layout.row#name-mobile": {
+    "children": ["form-input.text#name-mobile"],
+    "title": "neme-mobile",
+    "props": {
+      "blockClass": "name-mobile"
+    }
+  },
+  "form-input.text#name-mobile": {
+    "props": {
+      "pointer": "#/properties/name",
+      "blockClass": "input-name-mobile"
+    }
+  },
+  "flex-layout.row#email-mobile": {
+    "children": ["form-input.text#email-mobile"],
+    "title": "e-mail-mobile",
+    "props": {
+      "blockClass": "email-mobile"
+    }
+  },
+  "form-input.text#email-mobile": {
+    "props": {
+      "pointer": "#/properties/email",
+      "blockClass": "input-email-mobile"
+    }
+  },
+  "flex-layout.row#submit-mobile": {
+    "children": ["form-submit#mobile"],
+    "title": "submit-mobile",
+    "props": {
+      "blockClass": "submit-mobile"
+    }
+  },
+  "form-submit#mobile": {
+    "title": "form-submit-mobile",
+    "props": {
+      "label": "Submit",
+      "blockClass": "submit-form-mobile"
+    }
+  }
+}

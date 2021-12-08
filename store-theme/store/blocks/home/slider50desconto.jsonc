@@ -1,0 +1,34 @@
+{
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 600,
+      "images": [
+        {
+          "image": "assets/img/desktop/hero.png",
+          "mobileImage": "assets/img/mobile/grupodemascara.png"
+        },
+        {
+          "image": "assets/img/desktop/hero.png",
+          "mobileImage": "assets/img/mobile/grupodemascara.png"
+        },
+        {
+          "image": "assets/img/desktop/hero.png",
+          "mobileImage": "assets/img/mobile/grupodemascara.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  }
+}

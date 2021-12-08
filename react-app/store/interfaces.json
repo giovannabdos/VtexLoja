@@ -1,0 +1,28 @@
+{
+  "product-greeting":{
+    "component": "Greeting",
+    "composition":"children"
+  },
+  "product-api":{
+    "component": "Api"
+  },
+  "product-api-aleatoria":{
+    "component": "ApiAleatoria"
+  },
+  "product-api-vtex":{
+    "component": "ApiVtex"
+  },
+  "product-api-produto":{
+    "component": "ApiProduto"
+  },
+  "product-api-produto-sku":{
+    "component": "ApiProdutoSku"
+  },
+  "api-pdp":{
+    "component": "ApiPdp"
+  },
+  "api-teste":{
+    "component": "Teste"
+  }
+}
+

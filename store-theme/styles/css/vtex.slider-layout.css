@@ -1,0 +1,10 @@
+.paginationDot--carousel--isActive {
+  background-color: black;
+}
+.paginationDot--numer--isActive {
+  background-color: black;
+}
+.paginationDotsContainer--numer {
+  margin-top: 20px;
+  padding-top: 20px;
+}

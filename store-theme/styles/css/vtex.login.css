@@ -1,0 +1,7 @@
+/* .container {
+  background-image: url("assets/img/desktop/user.png") !important;
+  background-repeat: no-repeat;
+} */
+.profileIcon--login-icon {
+  display: none;
+}

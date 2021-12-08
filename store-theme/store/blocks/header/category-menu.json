@@ -1,0 +1,567 @@
+{
+  "menu-item#novidades": {
+    "props": {
+      "id": "menu-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "NOVIDADES",
+        "text": "NOVIDADES"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Novidades"]
+  },
+  "vtex.menu@2.x:submenu#Novidades": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#Novidades"]
+  },
+  "vtex.menu@2.x:menu#Novidades": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-clase1",
+      "menu-item#category-clase2",
+      "menu-item#category-clase3"
+    ]
+  },
+  "menu-item#category-clase1": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-clase2": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-clase3": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#outlet": {
+    "props": {
+      "id": "menu-OUTLET",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
+      }
+    }
+  },
+  "menu-item#departamento5": {
+    "props": {
+      "id": "menu-item-Departamento5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "DEPARTAMENTO 5",
+        "text": "Departamento 5"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departamento5"]
+  },
+  "vtex.menu@2.x:submenu#departamento5": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#departamento5"]
+  },
+  "vtex.menu@2.x:menu#departamento5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-departamento5-clothing",
+      "menu-item#category-departamento5-accessories",
+      "menu-item#category-departamento5-eyeglasses"
+    ]
+  },
+  "menu-item#category-departamento5-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-departamento5-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-departamento5-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#departamento4": {
+    "props": {
+      "id": "menu-item-Departamento4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "DEPARTAMENTO 4",
+        "text": "Departamento 4"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departamento4"]
+  },
+  "vtex.menu@2.x:submenu#departamento4": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#departamento4"]
+  },
+  "vtex.menu@2.x:menu#departamento4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-departamento4-clothing",
+      "menu-item#category-departamento4-accessories",
+      "menu-item#category-departamento4-eyeglasses"
+    ]
+  },
+  "menu-item#category-departamento4-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-departamento4-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-departamento4-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#departamento3": {
+    "props": {
+      "id": "menu-item-Departamento3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "DEPARTAMENTO 3",
+        "text": "Departamento 3"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departamento3"]
+  },
+  "vtex.menu@2.x:submenu#departamento3": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#departamento3"]
+  },
+  "vtex.menu@2.x:menu#departamento3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-departamento3-clothing",
+      "menu-item#category-departamento3-accessories",
+      "menu-item#category-departamento3-eyeglasses"
+    ]
+  },
+  "menu-item#category-departamento3-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-departamento3-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-departamento3-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#departamento2": {
+    "props": {
+      "id": "menu-item-DEPARTAMENTO2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "DEPARTAMENTO 2",
+        "text": "Departamento 2"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#departamento2"]
+  },
+  "vtex.menu@2.x:submenu#departamento2": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#departamento2"]
+  },
+  "vtex.menu@2.x:menu#departamento2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-departamento2-clothing",
+      "menu-item#category-departamento2-accessories",
+      "menu-item#category-departamento2-eyeglasses"
+    ]
+  },
+  "menu-item#category-departamento2-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-departamento2-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-departamento2-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#departamento1": {
+    "props": {
+      "id": "menu-item-DEPARTAMENTO1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "DEPARTAMENTO 1",
+        "text": "Departamento 1"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-apparel"]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#category-apparel"]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#minhaconta": {
+    "props": {
+      "id": "menu-minhaconta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Minha Conta",
+        "text": "Minha Conta"
+      }
+    }
+  },
+  "menu-item#atendimentoaocliente": {
+    "props": {
+      "id": "menu-atendimentoaocliente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Atendimento ao Cliente",
+        "text": "Atendimento ao Cliente"
+      }
+    }
+  },
+  "flex-layout.row#menuCinza": {
+    "children": ["flex-layout.col#menuCinza"]
+  },
+  "flex-layout.col#menuCinza": {
+    "children": [
+      "menu-item#lojasparceiras",
+      "menu-item#sejaumrepresentante2",
+      "menu-item#sejaumrevendedor"
+    ],
+    "props": {
+      "blockClass": "menuCinza"
+    }
+  },
+  "menu-item#lojasparceiras": {
+    "props": {
+      "id": "menu-lojasparceiras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Lojas Parceiras",
+        "text": "Lojas Parceiras"
+      }
+    }
+  },
+  "menu-item#sejaumrepresentante2": {
+    "props": {
+      "id": "menu-sejaumrepresentante",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Seja um Representante",
+        "text": "Seja um Representante"
+      }
+    }
+  },
+  "menu-item#sejaumrevendedor": {
+    "props": {
+      "id": "menu-sejaumrevendedor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Seja um Revendedor",
+        "text": "Seja um Revendedor"
+      }
+    }
+  }
+}

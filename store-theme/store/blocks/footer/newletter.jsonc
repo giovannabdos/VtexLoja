@@ -1,0 +1,121 @@
+{
+
+  "newsletter-form": {
+    "children": ["flex-layout.row#newsletter"]
+  },
+  "newsletter-form#mobile": {
+    "children": ["flex-layout.row#newsletter-mobile"]
+  },
+
+  "flex-layout.row#newsletter": {
+    "props": {
+      "blockClass": "row-newsletter"
+    },
+    "children": [
+      "flex-layout.row#imageText",
+      "flex-layout.row#newsletter2"
+    ]
+  },
+  "flex-layout.row#imageText":{
+    "children":[
+      "image#newletter",
+      "rich-text#newletter"
+    ]
+  },
+  "image#newletter":{
+    "props": {
+      "src": "assets/img/desktop/A-logo-avanti.png",
+      "blockClass":"image-new"
+    }
+  },
+  "rich-text#newletter":{
+    "props": {
+      "text": "**NEWLETTER** <br>Receba promoções e descontos especiais em primeira mão.",
+      "blockClass": "shelfTitle"
+    }
+  },
+"newsletter-input-name": {
+    "props": {
+      "blockClass": "input-newsletter"
+    }
+  },
+
+  "newsletter-input-email": {
+    "props": {
+      "blockClass": "input-newsletter2"
+    }
+  },
+
+  "newsletter-submit": {
+    "props": {
+      "blockClass": "newsletter25",
+      "submitButtonLabel": "CADASTRE-SE"
+    }
+  },
+  "flex-layout.row#newsletter2": {
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props":{
+      "blockClass":"newsletter2"
+    }
+  },
+  "flex-layout.row#newsletter-mobile": {
+    "props": {
+      "blockClass": "row-newsletter-mobile"
+    },
+    "children": [
+      "flex-layout.row#imageText-mobile",
+      "flex-layout.row#newsletter2-mobile"
+    ]
+  },
+  "flex-layout.row#imageText-mobile":{
+    "children":[
+      "image#newletter-mobile",
+      "rich-text#newletter-mobile"
+    ],
+    "props":{
+      "blockClass":"image-text-mobile"
+    }
+  },
+  "image#newletter-mobile":{
+    "props": {
+      "src": "assets/img/desktop/A-logo-avanti.png",
+      "blockClass":"image-new-mobile"
+    }
+  },
+  "rich-text#newletter-mobile":{
+    "props": {
+      "text": "**NEWLETTER** <br>Receba promoções e descontos especiais em primeira mão.",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "newsletter-input-name#mobile": {
+    "props": {
+      "blockClass": "input-newsletter-mobile"
+    }
+  },
+  "newsletter-input-email#mobile": {
+    "props": {
+      "blockClass": "input-newsletter-mobile"
+    }
+  },
+  "newsletter-submit#mobile": {
+    "props": {
+      "blockClass": "newsletter25-mobile",
+      "submitButtonLabel": "CADASTRE-SE"
+    }
+  },
+  "flex-layout.row#newsletter2-mobile": {
+    "children": [
+      "newsletter-input-name#mobile",
+      "newsletter-input-email#mobile",
+      "newsletter-submit#mobile"
+    ],
+    "props":{
+      "blockClass":"newsletter-mobile"
+    }
+  }
+}

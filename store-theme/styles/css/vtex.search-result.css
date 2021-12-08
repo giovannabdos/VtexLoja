@@ -1,0 +1,217 @@
+.galleryLayoutOptionButton {
+  background-color: #f0f0f0;
+  color: #3f3f40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3f3f40;
+  color: #ffffff;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center;
+}
+
+.galleryItem--list {
+  border-bottom: 1px #e7e9ee solid;
+}
+
+/* .banner-mobile{ */
+/* display: none; */
+/* } */
+
+.title-departaments {
+  color: #441afa;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 24px;
+}
+.searchBanner--banner-department {
+  width: 3000px;
+}
+.banner-desktop {
+  width: 2100px;
+  display: flex;
+}
+.searchResultContainer--result {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.description {
+  color: #707070;
+  font-size: 12px;
+}
+.filterItem--selected {
+  font-size: 12px;
+  color: #707070;
+}
+.filterItem {
+  font-size: 12px;
+}
+.filterItem :global(.vtex-checkbox__label) {
+  color: #707070;
+}
+.filterItem--selected :global(.vtex-checkbox__box) {
+  background: #441afa;
+  border-radius: 3px;
+  border: 1px solid #441afa;
+}
+/* .filterTemplateOverflow :global(.vtex-slider__base){ */
+/* background: #441AFA; */
+/* } */
+.filterTemplateOverflow :global(.vtex-slider__selector) {
+  background: #441afa;
+}
+.filterTemplateOverflow :global(.vtex-slider__base-internal) {
+  background: #441afa;
+}
+.galleryTitle--layout {
+  color: #441afa;
+  font-size: 24px;
+}
+.filterMessage {
+  font-size: 14px;
+  color: #2d2e3a;
+}
+.filterTitle {
+  font-size: 14px;
+  color: #2d2e3a;
+  font-weight: 400;
+}
+.totalProducts--layout {
+  color: #b1b3b3;
+  font-size: 14px;
+}
+.totalProductsMessage--product-v2 {
+  color: #b1b3b3;
+  font-size: 14px;
+  font-weight: 400;
+}
+.orderByText {
+  margin-right: 15px;
+  color: #25282a;
+}
+.caretIcon {
+  margin-left: 40px;
+  color: #b1b3b3;
+  font-size: 14px;
+}
+.filterPopupTitle {
+  color: #b1b3b3;
+  font-size: 14px;
+}
+.orderByDropdown--order-mobile {
+  border: solid 1px #e9e9e9;
+}
+.filterPopupButton {
+  border: solid 1px #e9e9e9;
+}
+.filterIcon--filter-mobile {
+  display: none;
+}
+.filterPopupButton {
+  font-weight: 700;
+  color: #000;
+}
+.filterPopupTitle--filter-mobile {
+  font-weight: 700;
+  color: #000;
+}
+.searchResultContainer--result {
+  max-width: unset;
+}
+.gallery--search-vitrine--grid {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.orderByDropdown--order-desk {
+  margin-right: 80px;
+}
+.orderByButton--v2-mobile {
+  border: #e9e9e9 solid 1px;
+}
+.accordionFilterItemTitle--filter-mobile {
+  font-size: 14px;
+}
+.filterBreadcrumbsText--filter-mobile {
+  font-size: 16px;
+}
+.filterClearButtonWrapper--filter-mobile :global(.vtex-button) {
+  border: #e9e9e9 solid 1px;
+  color: #000;
+}
+
+.filterApplyButtonWrapper--filter-mobile :global(.vtex-button) {
+  border: #441afa solid 1px;
+  background-color: #441afa;
+  color: #ffffff;
+}
+.caretIcon--filter-mobile {
+  color: #707070;
+}
+.filterAccordionItemBox--cara {
+  font-size: 12px;
+}
+.filterAccordionItemBox--mulher {
+  font-size: 12px;
+}
+.filterAccordionItemBox--testes-kg {
+  font-size: 12px;
+}
+.filterAccordionItemBox--esvaziar {
+  font-size: 12px;
+}
+.filterAccordionItemBox--acessorios {
+  font-size: 12px;
+}
+.filterAccordionItemBox--eletronicos {
+  font-size: 12px;
+}
+.filterAccordionItemBox--16-gb {
+  font-size: 12px;
+}
+.filterAccordionItemBox--128gb {
+  font-size: 12px;
+}
+.filterAccordionItemBox--animale {
+  font-size: 12px;
+}
+.filterAccordionItemBox--mob {
+  font-size: 12px;
+}
+.filterAccordionItemBox--p {
+  font-size: 12px;
+}
+.filterAccordionItemBox--m {
+  font-size: 12px;
+}
+.filterAccordionItemBox--g {
+  font-size: 12px;
+}
+.filterAccordionItemBox--220v {
+  font-size: 12px;
+}
+.searchNotFoundInfo {
+  color: #441afa;
+  font-size: 16px;
+  font-weight: 700;
+}
+.searchNotFoundWhatDoIDo {
+  font-size: 12px;
+  color: #2e2e2e;
+}
+.searchNotFoundWhatToDoDots {
+  font-size: 12px;
+  color: #b1b3b3;
+  font-weight: 400;
+}
+.searchNotFoundOops {
+  font-size: 56px;
+  color: #eeeeee;
+}

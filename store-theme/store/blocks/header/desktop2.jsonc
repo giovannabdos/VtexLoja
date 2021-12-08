@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#2-desktop": {
+    "children": [
+      "notification.bar#home",
+      "flex-layout.col#notification-revendedor"
+    ],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "Frete Grátis acima de R$299,00 para Região Sudeste."
+    }
+  },
+  "flex-layout.col#notification-revendedor": {
+    "props": {
+      "blockClass": "notification-home-right"
+    },
+    "children": ["rich-text#revendedor-representante"]
+  },
+  "rich-text#revendedor-representante": {
+    "props": {
+      "blockClass": "first-row",
+      "text": "[SEJA UM REVENDEDOR](http://www.google.com) | [SEJA UM REPRESENTANTE](http://www.facebook.com)",
+      "textPosition": "RIGHT"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "flex-layout.col#footer-richText-desktop",
+      "flex-layout.col#footer-image-desktop"]
+  },
+  "flex-layout.col#footer-richText-desktop": {
+    "children": ["rich-text#footer"]
+  },
+  "flex-layout.col#footer-image-desktop": {
+    "children": [ "flex-layout.row#footer-image-desktop"],
+    "props":{
+      "blockClass":"logo-footer-desktop"
+    }
+  },
+  "flex-layout.row#footer-image-desktop": {
+    "children": ["image#logoFotter", "image#logoFotter2"],
+    "props":{
+      "blockClass":"logo-footer-desktop"
+    }
+  },
+  "flex-layout.row#footer-image-mobile": {
+    "children": ["image#logoFotter-mobile", "image#logoFotter2-mobile"],
+    "props":{
+      "blockClass":"logo-footer-mobile"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "blockClass":"footer3",
+      "text": "© Copyright 2021 Avanti LTDA - Todos direitos reservados.<br> Rodovia Jose Carlos Daux, 500 Techno Towers - Torre 2 - sala 209 - João Paulo, Florianópolis - SC, 88030-000"
+    }
+  },
+  "image#logoFotter-mobile": {
+    "props": {
+      "src": "assets/img/desktop/avanti.png",
+      "blockClass":"logo-fotter"
+    }
+  },
+  "image#logoFotter2-mobile": {
+    "props": {
+      "src": "assets/img/mobile/Imagem16.png",
+      "blockClass":"logo-fotter2"
+    }
+  },
+  "image#logoFotter": {
+    "props": {
+      "src": "assets/img/desktop/avanti.png",
+      "blockClass":"logo-fotter"
+    }
+  },
+  "image#logoFotter2": {
+    "props": {
+      "src": "assets/img/mobile/Imagem16.png",
+      "blockClass":"logo-fotter2"
+    }
+  },
+  "flex-layout.row#image-logo-footer":{
+    "children":["image#logoFotter","image#logoFotter2"
+    ]
+  }
+}

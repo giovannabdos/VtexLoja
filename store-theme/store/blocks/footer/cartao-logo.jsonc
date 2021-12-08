@@ -1,0 +1,145 @@
+{
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["flex-layout.col#cartao", "flex-layout.col#logo"],
+    "props": {
+      "blockClass": "logos-footer"
+    }
+  },
+  "flex-layout.col#cartao": {
+    "children": [
+      "image#cartão1",
+      "image#cartão2",
+      "image#cartão3",
+      "image#cartão4",
+      "image#cartão5",
+      "image#cartão6"
+    ],
+    "props": {
+      "blockClass": "cartao-footer"
+    }
+  },
+  "flex-layout.col#logo": {
+    "children": ["image#logo1", "image#logo2"],
+    "props": {
+      "blockClass": "logo-footer"
+    }
+  },
+  "image#cartão1": {
+    "props": {
+      "src": "assets/img/mobile/mastercard.png",
+      "blockClass": "cartao-desktop"
+    }
+  },
+  "image#cartão2": {
+    "props": {
+      "src": "assets/img/mobile/symbols.png",
+      "blockClass": "cartao-desktop"
+    }
+  },
+  "image#cartão3": {
+    "props": {
+      "src": "assets/img/mobile/symbols1.png",
+      "blockClass": "cartao-desktop"
+    }
+  },
+  "image#cartão4": {
+    "props": {
+      "src": "assets/img/mobile/symbol.png",
+      "blockClass": "cartao-desktop"
+    }
+  },
+  "image#cartão5": {
+    "props": {
+      "src": "assets/img/mobile/eloservicos.png",
+      "blockClass": "cartao-desktop"
+    }
+  },
+  "image#cartão6": {
+    "props": {
+      "src": "assets/img/mobile/boletopreto.png",
+      "blockClass": "cartao-desktop"
+    }
+  },
+  "image#logo1": {
+    "props": {
+      "src": "assets/img/mobile/Imagem1.png",
+      "blockClass": "logo-desktop"
+    }
+  },
+  "image#logo2": {
+    "props": {
+      "src": "assets/img/mobile/g29.png",
+      "blockClass": "logo-desktop"
+    }
+  },
+  "flex-layout.row#cartao2": {
+    "children": ["flex-layout.col#cartao2", "flex-layout.col#logo2"]
+  },
+  "flex-layout.col#logo2": {
+    "children": ["image#logo3", "image#logo4"],
+    "props": {
+      "blockClass": "logo-footer-mobile"
+    }
+  },
+  "flex-layout.col#cartao2": {
+    "children": [
+      "image#cartão7",
+      "image#cartão8",
+      "image#cartão9",
+      "image#cartão10",
+      "image#cartão11",
+      "image#cartão12"
+    ],
+    "props": {
+      "blockClass": "cartao-footer-mobile"
+    }
+  },
+  "image#cartão7": {
+    "props": {
+      "src": "assets/img/mobile/mastercard.png",
+      "blockClass": "cartao-mobile"
+    }
+  },
+  "image#cartão8": {
+    "props": {
+      "src": "assets/img/mobile/symbols.png",
+      "blockClass": "cartao-mobile"
+    }
+  },
+  "image#cartão9": {
+    "props": {
+      "src": "assets/img/mobile/symbols1.png",
+      "blockClass": "cartao-mobile"
+    }
+  },
+  "image#cartão10": {
+    "props": {
+      "src": "assets/img/mobile/symbol.png",
+      "blockClass": "cartao-mobile"
+    }
+  },
+  "image#cartão11": {
+    "props": {
+      "src": "assets/img/mobile/eloservicos.png",
+      "blockClass": "cartao-mobile"
+    }
+  },
+  "image#cartão12": {
+    "props": {
+      "src": "assets/img/mobile/boletopreto.png",
+      "blockClass": "cartao-mobile"
+    }
+  },
+  "image#logo3": {
+    "props": {
+      "src": "assets/img/mobile/Imagem1.png",
+      "blockClass": "logo-mobile"
+    }
+  },
+  "image#logo4": {
+    "props": {
+      "src": "assets/img/mobile/g29.png",
+      "blockClass": "logo-mobile"
+    }
+  }
+}

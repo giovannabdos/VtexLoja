@@ -1,0 +1,75 @@
+{
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar#desktop",
+      "rich-text#atendimentoAoCliente",
+      "flex-layout.col#menu-carrinho",
+      "minicart.v2"
+    ]
+  },
+  "login#2": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "hideIconLabel": true,
+      "labelClasses": ["login"]
+    }
+  },
+  "flex-layout.col#menu-carrinho": {
+    "props": {
+      "blockClass": "menu-carrinho"
+    },
+    "children": ["login"]
+  },
+  "login": {
+    "props": {
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "blockClass": "login-icon"
+    }
+  },
+  "search-bar#desktop": {
+    "props": {
+      "blockClass": "search-bar-desktop"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/desktop/avanti.png",
+      "width": "200",
+      "height": "34"
+    }
+  },
+  "image#user": {
+    "props": {
+      "src": "assets/img/desktop/user.png",
+      "link": { "url": "#" }
+    }
+  }
+}

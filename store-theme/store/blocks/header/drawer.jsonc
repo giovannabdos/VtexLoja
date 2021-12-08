@@ -1,0 +1,359 @@
+{
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#novidades-mobile",
+      "menu-item#outlet-mobile",
+      "menu-item#category-departamento1-mobile",
+      "menu-item#category-departamento2-mobile",
+      "menu-item#minhaconta-mobile",
+      "menu-item#atendimentoaocliente-mobile",
+      "flex-layout.row#menuCinza-mobile"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-item-mobile"
+    }
+  },
+  "flex-layout.row#logoMobile": {
+    "children": ["logo#mobile"]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/mobile/avanti.png",
+      "width": "100%"
+    }
+  },
+  "rich-text#atendimentoAoCliente": {
+    "props": {
+      "blockClass": "rich-text-atendimento-ao-cliente",
+      "text": "Atendimento ao Cliente"
+    }
+  },
+  "menu-item#category-departamento1-mobile": {
+    "props": {
+      "id": "menu-item-category-department1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu2-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Departamento 1",
+        "text": "DEPARTEMENTO 1"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 12,
+        "activeClassName": "black"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#categoria": {
+    "props": {
+      "blockClass": "categoria-mobile",
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#categoria"]
+  },
+  "vtex.menu@2.x:menu#categoria": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#categoria1",
+      "menu-item#categoria2",
+      "menu-item#categoria3",
+      "menu-item#categoria4",
+      "menu-item#categoria5",
+      "menu-item#categoria6"
+    ]
+  },
+  "menu-item#categoria1": {
+    "props": {
+      "id": "menu-item-categoria1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      },
+      "iconPosition": "right",
+      "blockClass": "departamento-mobile",
+      "iconProps": {
+        "id": "nav-caret--right",
+        "size": 12,
+        "activeClassName": "black"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#sub-categoria-mobile2": {
+    "props": {
+      "blockClass": "sub-categoria-mobile",
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#sub-categoria-mobile2"]
+  },
+  "vtex.menu@2.x:menu#sub-categoria-mobile2": {
+    "props": {
+      "blockClass": "sub-categoria-mobile",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sub-categoria1-mobile2",
+      "menu-item#sub-categoria2-mobile2",
+      "menu-item#sub-categoria3-mobile2",
+      "menu-item#sub-categoria4-mobile2",
+      "menu-item#sub-categoria5-mobile2",
+      "menu-item#sub-categoria6-mobile2"
+    ]
+  },
+  "menu-item#sub-categoria1-mobile2": {
+    "props": {
+      "id": "menu-item-sub-categoria1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 1",
+        "text": "Sub-Categoria 1"
+      }
+    }
+  },
+  "menu-item#sub-categoria2-mobile2": {
+    "props": {
+      "id": "menu-item-sub-categoria2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 2",
+        "text": "Sub-Categoria 2"
+      }
+    }
+  },
+  "menu-item#sub-categoria3-mobile2": {
+    "props": {
+      "id": "menu-item-sub-categoria3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 3",
+        "text": "Sub-Categoria 3"
+      }
+    }
+  },
+  "menu-item#sub-categoria4-mobile2": {
+    "props": {
+      "id": "menu-item-sub-categoria4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 4",
+        "text": "Sub-Categoria 4"
+      }
+    }
+  },
+  "menu-item#sub-categoria5-mobile2": {
+    "props": {
+      "id": "menu-item-sub-categoria5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 5",
+        "text": "Sub-Categoria 5"
+      }
+    }
+  },
+  "menu-item#sub-categoria6-mobile2": {
+    "props": {
+      "id": "menu-item-sub-categoria6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 6",
+        "text": "Sub-Categoria 6"
+      }
+    }
+  },
+  "menu-item#category-departamento2-mobile": {
+    "props": {
+      "id": "menu-item-category-department2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu2-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Departamento 2",
+        "text": "DEPARTAMENTO 2"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 12,
+        "activeClassName": "black"
+      }
+    }
+  },
+  "menu-item#novidades-mobile": {
+    "props": {
+      "id": "menu-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "NOVIDADES",
+        "text": "NOVIDADES"
+      },
+      "blockClass": "item-menu-novidades"
+    }
+  },
+  "menu-item#outlet-mobile": {
+    "props": {
+      "id": "menu-OUTLET",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
+      },
+      "blockClass": "item-menu-azul"
+    }
+  },
+  "menu-item#minhaconta-mobile": {
+    "props": {
+      "id": "menu-minhaconta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "MINHA CONTA",
+        "text": "MINHA CONTA"
+      },
+      "blockClass": "item-menu-azul"
+    }
+  },
+  "menu-item#atendimentoaocliente-mobile": {
+    "props": {
+      "id": "menu-atendimentoaocliente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ATENDIMENTO AO CLIENTE",
+        "text": "ATENDIMENTO AO CLIENTE"
+      },
+      "blockClass": "item-menu-azul"
+    }
+  },
+  "flex-layout.row#menuCinza-mobile": {
+    "children": ["flex-layout.col#menuCinza"]
+  },
+  "flex-layout.col#menuCinza": {
+    "children": [
+      "menu-item#lojasparceiras",
+      "menu-item#sejaumrepresentante2",
+      "menu-item#sejaumrevendedor"
+    ],
+    "props": {
+      "blockClass": "menuCinza"
+    }
+  },
+  "menu-item#lojasparceiras": {
+    "props": {
+      "id": "menu-lojasparceiras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "LOJAS PARCEIRAS",
+        "text": "LOJAS PARCEIRAS"
+      },
+      "blockClass": "item-menu-cinza"
+    }
+  },
+  "menu-item#sejaumrepresentante2": {
+    "props": {
+      "id": "menu-sejaumrepresentante",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "SEJA UM REPRESENTANTE",
+        "text": "SEJA UM REPRESENTANTE"
+      },
+      "blockClass": "item-menu-cinza"
+    }
+  },
+  "menu-item#sejaumrevendedor": {
+    "props": {
+      "id": "menu-sejaumrevendedor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "SEJA UM REVENDEDOR",
+        "text": "SEJA UM REVENDEDOR"
+      },
+      "blockClass": "item-menu-cinza"
+    }
+  }
+}

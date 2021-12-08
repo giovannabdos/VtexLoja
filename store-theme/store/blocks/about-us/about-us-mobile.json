@@ -1,0 +1,338 @@
+{
+  "responsive-layout.phone#about-us": {
+    "children": [
+      "menu-item#aside",
+      "flex-layout.row#text-about-mobile"
+    ]
+  },
+  "menu-item#aside": {
+    "props": {
+      "blockClass": "accordion-mobile",
+      "id": "aside",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "aside",
+        "text": "ESCOLHA O ASSUNTO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#aside-menu"
+    ]
+  },
+  "menu-item#aside-tablet": {
+    "props": {
+      "blockClass": "accordion-tablet",
+      "id": "aside",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "aside",
+        "text": "ESCOLHA O ASSUNTO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#aside-menu"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#aside-menu": {
+    "props": {
+      "blockClass": "accordion-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#aside-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#aside-accordion": {
+    "props": {
+      "blockClass": "accordion",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#product-mobile",
+      "menu-item#amarca-mobile",
+      "menu-item#sobrenos-mobile",
+      "menu-item#sejaumrepresentante-mobile",
+      "menu-item#sejaumrevendedor-mobile",
+      "menu-item#vendascorporativas-mobile",
+      "menu-item#catalogo-mobile",
+      "rich-text#clothing2-mobile",
+      "menu-item#clothing-mobile",
+      "menu-item#shorts-mobile",
+      "menu-item#tank-tops-mobile",
+      "menu-item#shirts-mobile",
+      "menu-item#sweatshirt-mobile",
+      "menu-item#MapaDoSite-mobile",
+      "menu-item#CupomDeDesconto-mobile",
+      "menu-item#ManuaisDeProdutos-mobile"
+    ]
+  },
+
+  "flex-layout.row#text-about-mobile": {
+    "children": [
+      "flex-layout.col#text-mobile"
+    ]
+  },
+  "flex-layout.col#text-mobile": {
+    "props": {
+      "blockClass": "text-mobile"
+    },
+    "children": [
+      "rich-text#text-mobile"
+    ]
+  },
+  "rich-text#text-mobile": {
+    "props": {
+      "blockClass": "text-content",
+      "text": "# SOBRE NÓS\n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non. Commodo elit at imperdiet dui accumsan sit amet. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Pellentesque habitant morbi tristique senectus. Morbi tristique senectus et netus et. Sed blandit libero volutpat sed. Consequat mauris nunc congue nisi. Nam at lectus urna duis convallis convallis tellus. A condimentum vitae sapien pellentesque habitant morbi tristique. \n \n Sit amet consectetur adipiscing elit. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Tincidunt eget nullam non nisi est sit amet. Ut sem viverra aliquet eget. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Consectetur libero id faucibus nisl tincidunt eget nullam non. Cursus turpis massa tincidunt dui ut ornare lectus sit. Tellus at urna condimentum mattis pellentesque id nibh. Facilisis gravida neque convallis a cras semper auctor.\n \n  Tortor at risus viverra adipiscing at in. Tortor id aliquet lectus proin nibh. Risus in hendrerit gravida rutrum quisque non tellus. Id diam vel quam elementum pulvinar etiam non quam lacus. Netus et malesuada fames ac turpis. Eu nisl nunc mi ipsum faucibus. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Eu augue ut lectus arcu bibendum. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Non blandit massa enim nec dui nunc mattis. Euismod lacinia at quis risus sed vulputate. Faucibus in ornare quam viverra orci sagittis eu volutpat odio. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. \n \n Arcu felis bibendum ut tristique. Viverra justo nec ultrices dui sapien eget mi proin. Fames ac turpis egestas sed. Enim nunc faucibus a pellentesque sit amet. Vitae congue eu consequat ac felis donec et. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Id ornare arcu odio ut sem nulla pharetra. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Risus commodo viverra maecenas accumsan lacus vel. Nisl purus in mollis nunc sed id semper risus in. Lobortis scelerisque fermentum dui faucibus in. \n \n Urna nec tincidunt praesent semper feugiat. Cras tincidunt lobortis feugiat vivamus at augue. Amet nulla facilisi morbi tempus iaculis urna id. Vulputate ut pharetra sit amet aliquam id diam maecenas. Sociis natoque penatibus et magnis dis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Ullamcorper sit amet risus nullam. In hendrerit gravida rutrum quisque non tellus orci. At risus viverra adipiscing at in. Sit amet cursus sit amet dictum. Tellus at urna condimentum mattis pellentesque id nibh tortor id. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non. Commodo elit at imperdiet dui accumsan sit amet. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Pellentesque habitant morbi tristique senectus. Morbi tristique senectus et netus et. Sed blandit libero volutpat sed. Consequat mauris nunc congue nisi. Nam at lectus urna duis convallis convallis tellus. A condimentum vitae sapien pellentesque habitant morbi tristique.\n \n  Sit amet consectetur adipiscing elit. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Tincidunt eget nullam non nisi est sit amet. Ut sem viverra aliquet eget. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Consectetur libero id faucibus nisl tincidunt eget nullam non. Cursus turpis massa tincidunt dui ut ornare lectus sit. Tellus at urna condimentum mattis pellentesque id nibh. Facilisis gravida neque convallis a cras semper auctor. \n \n Tortor at risus viverra adipiscing at in. Tortor id aliquet lectus proin nibh. Risus in hendrerit gravida rutrum quisque non tellus. Id diam vel quam elementum pulvinar etiam non quam lacus. Netus et malesuada fames ac turpis. Eu nisl nunc mi ipsum faucibus. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Eu augue ut lectus arcu bibendum. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Non blandit massa enim nec dui nunc mattis. Euismod lacinia at quis risus sed vulputate. Faucibus in ornare quam viverra orci sagittis eu volutpat odio. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor.\n \n  Arcu felis bibendum ut tristique. Viverra justo nec ultrices dui sapien eget mi proin. Fames ac turpis egestas sed. Enim nunc faucibus a pellentesque sit amet. Vitae congue eu consequat ac felis donec et. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Id ornare arcu odio ut sem nulla pharetra. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Risus commodo viverra maecenas accumsan lacus vel. Nisl purus in mollis nunc sed id semper risus in. Lobortis scelerisque fermentum dui faucibus in.\n \n  Urna nec tincidunt praesent semper feugiat. Cras tincidunt lobortis feugiat vivamus at augue. Amet nulla facilisi morbi tempus iaculis urna id. Vulputate ut pharetra sit amet aliquam id diam maecenas. Sociis natoque penatibus et magnis dis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Ullamcorper sit amet risus nullam. In hendrerit gravida rutrum quisque non tellus orci. At risus viverra adipiscing at in. Sit amet cursus sit amet dictum. Tellus at urna condimentum mattis pellentesque id nibh tortor id."
+    }
+  },
+  "rich-text#product-mobile": {
+    "props": {
+      "text": "**Institucional**",
+      "blockClass": "product-mobile"
+    }
+  },
+  "menu-item#amarca-mobile": {
+    "props": {
+      "id": "menu-item-amarca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "AMarca",
+        "text": "A Marca",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+  "menu-item#sobrenos-mobile": {
+    "props": {
+      "id": "menu-item-sobrenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "SobreNos",
+        "text": "Sobre Nós",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+  "menu-item#sejaumrepresentante-mobile": {
+    "props": {
+      "id": "menu-item-sejaumrepresentante",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "SejaUmRepresentante",
+        "text": "Seja um Representante",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+  "menu-item#sejaumrevendedor-mobile": {
+    "props": {
+      "id": "menu-item-sejaumrevendedor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "SejaUmRevendedor",
+        "text": "Seja um Revendedor",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+  "menu-item#vendascorporativas-mobile": {
+    "props": {
+      "id": "menu-item-vendascorporativas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "vendasCorporativas",
+        "text": "Vendas Corporativas",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+  "menu-item#catalogo-mobile": {
+    "props": {
+      "id": "menu-item-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/catalogo",
+        "noFollow": false,
+        "tagTitle": "Catálogo",
+        "text": "Catálogo",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+  "rich-text#clothing2-mobile": {
+    "props": {
+      "text": "**PRECISO DE AJUDA?**",
+      "blockClass": "preciso-de-ajuda-mobile"
+    }
+  },
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "FormasdePagamentos",
+        "text": "Formas de Pagamento",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+
+  "menu-item#shorts-mobile": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "FreteePrazodeEntrega",
+        "text": "Frete e prazo de Entrega",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+
+  "menu-item#tank-tops-mobile": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "PoliticadePrivacidade",
+        "text": "Plítica de Privacidade",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+
+  "menu-item#shirts-mobile": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Garantia",
+        "text": "Garantia",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+
+  "menu-item#sweatshirt-mobile": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "TermoseCondiçoesdeUso",
+        "text": "Termos e Condições de Uso",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+  "menu-item#MapaDoSite-mobile": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "MapaDoSite",
+        "text": "Mapa do Site",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+  "menu-item#CupomDeDesconto-mobile": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "CupomDeDesconto",
+        "text": "Cupom de Desconto",
+        "blockClass": "product-mobile"
+      }
+    }
+  },
+  "menu-item#ManuaisDeProdutos-mobile": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "ManuaisDeProdutos",
+        "text": "Manuais de Produtos",
+        "blockClass": "product-mobile"
+      }
+    }
+  }
+}

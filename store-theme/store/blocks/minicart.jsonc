@@ -1,0 +1,9 @@
+{
+  "minicart.v2": {
+    "props": {
+      "blockClass": "minicrt",
+      "customPixelEventId": "add-to-cart-button"
+    },
+    "children": ["minicart-base-content"]
+  }
+}

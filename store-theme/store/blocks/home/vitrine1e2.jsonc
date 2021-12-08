@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#vitrine1": {
+    "props": {
+      "blockClass": ["row-vitrine1", "grid-1252"]
+    },
+    "children": ["list-context.product-list#vitrine1"]
+  },
+  "list-context.product-list#vitrine1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#vitrine1"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#vitrine1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "numer"
+    }
+  },
+  "rich-text#vitrine1": {
+    "props": {
+      "text": "**Vitrine 1**",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#vitrine2": {
+    "props": {
+      "text": "**Vitrine 2**",
+      "blockClass": "shelfTitle"
+    }
+  }
+}

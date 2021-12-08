@@ -1,0 +1,20 @@
+{
+"flex-layout.row#fretegratis": {
+  "children": ["image#fretegratis"]
+},
+"image#fretegratis": {
+  "props": {
+    "src": "assets/img/mobile/bannersale.png",
+    "blockClass": "fretegratis"
+  }
+},
+"flex-layout.row#fretegratis2": {
+  "children": ["image#fretegratis2"]
+},
+"image#fretegratis2": {
+  "props": {
+    "src": "assets/img/desktop/bannersale.png",
+    "blockClass": "frete-gratis2"
+  }
+}
+}

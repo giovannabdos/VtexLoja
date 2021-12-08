@@ -1,0 +1,5 @@
+{
+  "store.custom#apiVtex": {
+    "children": ["product-api"]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#newsale": {
+    "children": ["flex-layout.row#new", "flex-layout.row#sale"],
+    "props": {
+      "paddingTop": 6,
+      "paddingBottom": 6,
+      "blockClass":"sale-desk"
+    }
+  },
+  "flex-layout.row#new": {
+    "children": ["image#new"],
+    "props": {
+      "blockClass": "new"
+    }
+  },
+  "image#new": {
+    "props": {
+      "src": "assets/img/mobile/componente1.png",
+      "link": { "url": "#"  },
+      "blockClass": "new"
+    }
+  },
+  "flex-layout.row#sale": {
+    "children": ["image#sale"],
+    "props": {
+      "blockClass": "sale"
+    }
+  },
+  "image#sale": {
+    "props": {
+      "src": "assets/img/mobile/componente2.png",
+      "link": { "url": "#"  },
+      "blockClass": "sale"
+    }
+  },
+  "flex-layout.row#newsale-phone": {
+    "children": ["image#newmobile", "image#salemobile"]
+  },
+  "image#newmobile": {
+    "props": {
+      "src": "assets/img/mobile/componente1.png",
+      "link": { "url": "#" },
+      "blockClass": "newmobile"
+    }
+  },
+  "image#salemobile": {
+    "props": {
+      "src": "assets/img/mobile/componente2.png",
+      "link": { "url": "#" },
+      "blockClass": "salemobile"
+    }
+  }
+}

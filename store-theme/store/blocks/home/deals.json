@@ -1,0 +1,220 @@
+{
+"flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ],
+    "props": {
+      "blockClass": "deals-completo"
+    }
+  },
+  "image#deal1": {
+    "props": {
+      "src": "assets/img/desktop/box.png",
+      "maxHeight": "24px",
+      "blockClass": "deals-image"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "***FRETE GRÁTIS*** ACIMA DE R$299",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ],
+    "props": {
+      "blockClass": "deals-completo"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/img/desktop/exchange.png",
+      "maxHeight": "24px",
+      "blockClass": "deals-image"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "***PRIMEIRA TROCA*** GRÁTIS",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ],
+    "props": {
+      "blockClass": "deals-completo"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/img/desktop/creditcard.png",
+      "maxHeight": "24px",
+      "blockClass": "deals-image"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "***ATÉ 12X SEM JUROS*** NOS CARTÕES",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ],
+    "props": {
+      "blockClass": "deals-completo"
+    }
+  },
+  "image#deal4": {
+    "props": {
+      "src": "assets/img/desktop/shopping.png",
+      "maxHeight": "24px",
+      "blockClass": "deals-image"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "***ENCONTRE UM*** PARCEIRO VOLLO",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#dels2": {
+    "children": [
+      "slider-layout#deals2"
+    ],
+    "props":{
+      "blockClass":"dels25"
+    }
+  },
+  "slider-layout#deals2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay":{
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "deals",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "flex-layout.row#frete",
+      "flex-layout.row#troca",
+      "flex-layout.row#semjuros",
+      "flex-layout.row#vollo"]
+  },
+  "flex-layout.row#frete": {
+    "children": [
+      "image#frete",
+      "rich-text#frete"
+    ],
+    "props":{
+      "blockClass":"mobile25"
+    }
+  },
+  "image#frete": {
+    "props": {
+      "src": "assets/img/desktop/box.png",
+      "maxHeight": "24px",
+      "blockClass":"image-frete"
+    }
+  },
+  "rich-text#frete": {
+    "props": {
+      "text": "***FRETE GRÁTIS*** ACIMA DE R$299",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#troca": {
+    "children": [
+      "image#troca",
+      "rich-text#troca"
+    ],
+    "props":{
+      "blockClass":"mobile25"
+    }
+  },
+  "image#troca": {
+    "props": {
+      "src": "assets/img/desktop/exchange.png",
+      "maxHeight": "24px",
+      "blockClass":"image-frete"
+    }
+  },
+  "rich-text#troca": {
+    "props": {
+      "text": "***PRIMEIRA TROCA*** GRÁTIS",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#semjuros": {
+    "children": [
+      "image#semjuros",
+      "rich-text#semjuros"
+    ],
+    "props":{
+      "blockClass":"mobile25"
+    }
+  },
+  "image#semjuros": {
+    "props": {
+      "src": "assets/img/desktop/creditcard.png",
+      "maxHeight": "24px",
+      "blockClass":"image-frete"
+    }
+  },
+  "rich-text#semjuros": {
+    "props": {
+      "text": "***ATÉ 12X SEM JUROS*** NOS CARTÕES",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#vollo": {
+    "children": [
+      "image#vollo",
+      "rich-text#vollo"
+    ],
+    "props":{
+      "blockClass":"mobile25"
+    }
+  },
+  "image#vollo": {
+    "props": {
+      "src": "assets/img/desktop/shopping.png",
+      "maxHeight": "24px",
+      "blockClass":"image-frete"
+    }
+  },
+  "rich-text#vollo": {
+    "props": {
+      "text": "***ENCONTRE UM*** PARCEIRO VOLLO",
+      "blockClass": "deals"
+    }
+  }
+}

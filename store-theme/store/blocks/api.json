@@ -1,0 +1,31 @@
+{
+  "store.custom#api": {
+    "blocks": ["responsive-layout.desktop#api", "responsive-layout.phone#api"]
+  },
+  "responsive-layout.desktop#api": {
+    "children": ["product-api-aleatoria", "product-api-vtex"]
+  },
+  "responsive-layout.phone#api": {
+    "children": ["product-api-aleatoria#phone", "product-api-vtex#phone"]
+  },
+  "product-api-aleatoria": {
+    "props": {
+      "blockClass": "api-aleatoria"
+    }
+  },
+  "product-api-vtex": {
+    "props": {
+      "blockClass": "api-aleatoria"
+    }
+  },
+  "product-api-aleatoria#phone": {
+    "props": {
+      "blockClass": "api-aleatoria-mobile"
+    }
+  },
+  "product-api-vtex#phone": {
+    "props": {
+      "blockClass": "api-aleatoria-mobile"
+    }
+  }
+}

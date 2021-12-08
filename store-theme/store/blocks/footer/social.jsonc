@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#social2": {
+    "children": ["flex-layout.col#social2"]
+  },
+  "flex-layout.col#social2": {
+    "children": ["image#face2", "image#insta2"],
+    "props": {
+      "blockClass": "social"
+    }
+  },
+
+  "flex-layout.row#social": {
+    "children": ["image#face", "image#insta"],
+    "props": {
+      "blockClass": "social"
+    }
+  },
+  "image#face": {
+    "props": {
+      "src": "assets/img/mobile/facebook.png",
+      "link": { "url": "#" },
+      "blockClass": "facebook"
+    }
+  },
+  "image#insta": {
+    "props": {
+      "src": "assets/img/mobile/instagram1.png",
+      "link": { "url": "#" },
+      "blockClass": "insta2"
+    }
+  }
+}

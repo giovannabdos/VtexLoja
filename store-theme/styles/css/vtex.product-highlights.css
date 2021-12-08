@@ -1,0 +1,17 @@
+.productHighlightWrapper--collection {
+  top: 10px;
+  width: 200px;
+  padding: 0 !important;
+  text-align: start;
+}
+
+.productHighlightText {
+  padding: 5px 10px;
+  background-color: #441AFA;
+  color:#FFF;
+}
+
+.productHighlightText--inovacao{
+  background-color: black;
+  padding-right: 15px;
+}

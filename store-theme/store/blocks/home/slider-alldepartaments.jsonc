@@ -1,0 +1,192 @@
+{
+  "flex-layout.row#departamento": {
+    "children": ["slider-layout#all-departaments"],
+    "props": {
+      "blockClass": "departamento"
+    }
+  },
+  "slider-layout#all-departaments": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "flex-layout.col#slider1",
+      "flex-layout.col#slider2",
+      "flex-layout.col#slider3",
+      "flex-layout.col#slider4",
+      "flex-layout.col#slider5",
+      "flex-layout.col#slider6",
+      "flex-layout.col#slider7",
+      "flex-layout.col#slider8",
+      "flex-layout.col#slider1",
+      "flex-layout.col#slider2",
+      "flex-layout.col#slider3",
+      "flex-layout.col#slider4",
+      "flex-layout.col#slider5",
+      "flex-layout.col#slider6",
+      "flex-layout.col#slider7",
+      "flex-layout.col#slider8"
+    ]
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "**Todos os Departamentos**",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.col#slider1": {
+    "props": {
+      "blockClass": "slider-departaments"
+    },
+    "children": ["image#slider1", "rich-text#slider1"]
+  },
+
+  "flex-layout.col#slider2": {
+    "props": {
+      "blockClass": "slider-departaments"
+    },
+    "children": ["image#slider2", "rich-text#slider2"]
+  },
+
+  "flex-layout.col#slider3": {
+    "props": {
+      "blockClass": "slider-departaments"
+    },
+    "children": ["image#slider3", "rich-text#slider3"]
+  },
+
+  "flex-layout.col#slider4": {
+    "props": {
+      "blockClass": "slider-departaments"
+    },
+    "children": ["image#slider4", "rich-text#slider4"]
+  },
+
+  "flex-layout.col#slider5": {
+    "props": {
+      "blockClass": "slider-departaments"
+    },
+    "children": ["image#slider5", "rich-text#slider5"]
+  },
+
+  "flex-layout.col#slider6": {
+    "props": {
+      "blockClass": "slider-departaments"
+    },
+    "children": ["image#slider6", "rich-text#slider6"]
+  },
+
+  "flex-layout.col#slider7": {
+    "props": {
+      "blockClass": "slider-departaments"
+    },
+    "children": ["image#slider7", "rich-text#slider7"]
+  },
+
+  "flex-layout.col#slider8": {
+    "props": {
+      "blockClass": "slider-departaments"
+    },
+    "children": ["image#slider8", "rich-text#slider8"]
+  },
+
+  "image#slider1": {
+    "props": {
+      "src": "assets/img/desktop/2400roupas.png"
+    }
+  },
+  "rich-text#slider1": {
+    "props": {
+      "blockClass": "slider-text",
+      "text": "DEPARTAMENTO 1"
+    }
+  },
+
+  "image#slider2": {
+    "props": {
+      "src": "assets/img/desktop/8849smartwhatches.png"
+    }
+  },
+  "rich-text#slider2": {
+    "props": {
+      "blockClass": "slider-text",
+      "text": "DEPARTAMENTO 2"
+    }
+  },
+
+  "image#slider3": {
+    "props": {
+      "src": "assets/img/desktop/1763jaquetas.png"
+    }
+  },
+  "rich-text#slider3": {
+    "props": {
+      "blockClass": "slider-text",
+      "text": "DEPARTAMENTO 3"
+    }
+  },
+
+  "image#slider4": {
+    "props": {
+      "src": "assets/img/desktop/2922oculos.png"
+    }
+  },
+  "rich-text#slider4": {
+    "props": {
+      "blockClass": "slider-text",
+      "text": "DEPARTAMENTO 4"
+    }
+  },
+  "image#slider5": {
+    "props": {
+      "src": "assets/img/desktop/6684moletons.png"
+    }
+  },
+  "rich-text#slider5": {
+    "props": {
+      "blockClass": "slider-text",
+      "text": "DEPARTAMENTO 5"
+    }
+  },
+  "image#slider6": {
+    "props": {
+      "src": "assets/img/desktop/484games.png"
+    }
+  },
+  "rich-text#slider6": {
+    "props": {
+      "blockClass": "slider-text",
+      "text": "DEPARTAMENTO 6"
+    }
+  },
+  "image#slider7": {
+    "props": {
+      "src": "assets/img/desktop/1203diadia.png"
+    }
+  },
+  "rich-text#slider7": {
+    "props": {
+      "blockClass": "slider-text",
+      "text": "DEPARTAMENTO 7"
+    }
+  },
+  "image#slider8": {
+    "props": {
+      "src": "assets/img/desktop/9861eletronicos.png"
+    }
+  },
+  "rich-text#slider8": {
+    "props": {
+      "blockClass": "slider-text",
+      "text": "DEPARTAMENTO 8"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.openIconContainer{
+  display: flex;
+  justify-content:right;
+  align-items: right;
+}
+
+.cartIcon--minicrt{
+  display: none;
+}
+
+.minicartIconContainer {
+  height: 26px;
+  width: 28px;
+  background-image: url("assets/img/mobile/grupo4794.png");
+}

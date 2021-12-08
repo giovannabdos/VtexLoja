@@ -1,0 +1,233 @@
+.currencyCode--diner {
+  color: #441afa;
+  font-size: 24px;
+  font-weight: 700;
+}
+.currencyInteger--diner {
+  color: #441afa;
+  font-size: 24px;
+  font-weight: 700;
+}
+.currencyFraction--diner {
+  color: #441afa;
+  font-size: 24px;
+  font-weight: 700;
+}
+.savings--product {
+  font-size: 12px;
+}
+.listPrice--product {
+  font-size: 12px;
+}
+.installments {
+  font-size: 14px;
+}
+.installmentsNumber {
+  font-weight: 700;
+}
+.currencyCode {
+  font-weight: 700;
+}
+.currencyCode {
+  font-weight: 700;
+}
+.currencyInteger {
+  font-weight: 700;
+}
+.currencyDecimal {
+  font-weight: 700;
+}
+.currencyFraction {
+  font-weight: 700;
+}
+.currencyDecimal--diner {
+  font-weight: 700;
+  color: #441afa;
+}
+.listPrice--summary {
+  color: #b1b3b3;
+  font-size: 12px;
+  font-weight: 400;
+  justify-items: flex-start;
+}
+.currencyCode--savings {
+  color: #000;
+}
+.currencyInteger--savings {
+  color: #000;
+}
+.currencyDecimal--savings {
+  color: #000;
+}
+.currencyFraction--savings {
+  color: #000;
+}
+.currencyCode--list-price {
+  color: #b1b3b3;
+  font-size: 12px;
+  font-weight: 400;
+}
+.currencyInteger--list-price {
+  color: #b1b3b3;
+  font-size: 12px;
+  font-weight: 400;
+}
+.currencyDecimal--list-price {
+  color: #b1b3b3;
+  font-size: 12px;
+  font-weight: 400;
+}
+.currencyFraction--list-price {
+  color: #b1b3b3;
+  font-size: 12px;
+  font-weight: 400;
+}
+.listPrice--list-price {
+  text-align: start;
+  color: #b1b3b3;
+  font-size: 12px;
+  font-weight: 400;
+}
+.installments--summary {
+  color: #000;
+  font-weight: 400;
+  text-align: start;
+  margin-bottom: 13px;
+}
+.currencyCode--price {
+  color: #441afa;
+}
+.currencyInteger--price {
+  color: #441afa;
+}
+.currencyDecimal--price {
+  color: #441afa;
+}
+.currencyFraction--price {
+  color: #441afa;
+}
+.installmentsNumber--summary--4 {
+  font-weight: 400;
+}
+.installmentsNumber--summary--5 {
+  font-weight: 400;
+}
+.installmentsNumber--summary--12 {
+  font-weight: 400;
+}
+.currencyCode--summary {
+  font-weight: 400;
+}
+.currencyInteger--summary {
+  font-weight: 400;
+}
+.currencyDecimal--summary {
+  font-weight: 400;
+}
+.currencyFraction--summary {
+  font-weight: 400;
+}
+.currencyContainer--summary {
+  font-weight: 400;
+}
+.currencyCode--product2 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.currencyInteger--product2 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.currencyDecimal--product2 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.currencyFraction--product2 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.savings--product2 {
+  font-size: 12px;
+  font-weight: 400;
+  align-self: center;
+}
+.currencyCode--selling-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyInteger--selling-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyDecimal--selling-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyFraction--selling-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.sellingPrice--selling-price-buy-box--hasListPrice {
+  padding-top: 20px;
+}
+.currencyCode--selling-price-buy-box {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyInteger--selling-price-buy-box {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyDecimal--selling-price-buy-box {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyFraction--selling-price-buy-box {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyCode--selling-price-buy-box-mobile {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyInteger--selling-price-buy-box-mobile {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyDecimal--selling-price-buy-box-mobile {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyFraction--selling-price-buy-box-mobile {
+  font-size: 24px;
+  font-weight: 700;
+  color: #441afa;
+}
+.currencyContainer--selling-price-buy-box {
+  margin-left: 15px;
+}
+.installments--buy-desconto{
+  color:#25282A;
+  font-size: 14px;
+}
+.savings--savings{
+  background-color: #000;
+  color: #FFF;
+  padding-top: 4px;
+  padding-bottom:4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+  font-weight:500 ;
+}

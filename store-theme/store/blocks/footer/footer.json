@@ -1,0 +1,89 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "newsletter-form",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "footer-spacer",
+      "flex-layout.row#social"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "newsletter-form#mobile",
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#socil-footer-mobile": {
+    "children": ["image#insta2", "image#face2"],
+    "props": {
+      "blockClass": "footer-social-mobile"
+    }
+  },
+  "image#face2": {
+    "props": {
+      "src": "assets/img/mobile/facebook.png",
+      "link": { "url": "#" },
+      "blockClass": "facebook2"
+    }
+  },
+  "image#insta2": {
+    "props": {
+      "src": "assets/img/mobile/instagram1.png",
+      "link": { "url": "#" },
+      "blockClass": "insta2"
+    }
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.row#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.row#footer-1-mobile": {
+    "children": [
+      "flex-layout.row#socil-footer-mobile",
+      "flex-layout.row#cartao2",
+      "flex-layout.row#rich-text",
+      "flex-layout.row#footer-image-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "footer-menu"
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+
+  "flex-layout.row#rich-text": {
+    "children": ["rich-text#footer4"]
+  },
+  "rich-text#footer4": {
+    "props": {
+      "text": "© Copyright 2021 Avanti LTDA - Todos direitos reservados.<br> Rodovia Jose Carlos Daux, 500 Techno Towers - Torre 2 - sala 209 - João <br>Paulo, Florianópolis - SC, 88030-000",
+      "blockClass": "link"
+    }
+  }
+}

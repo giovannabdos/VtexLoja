@@ -1,0 +1,23 @@
+.quantitySelectorTitle--text-button-quantidade {
+  color: black;
+  font-size: 12px;
+  margin-right: 10px;
+  align-self: center;
+}
+.quantitySelectorContainer--text-button-quantidade {
+  margin-top: 15px;
+  background-color: #fff;
+}
+.quantitySelectorContainer--quant-pdp {
+  flex-direction: row;
+  margin-top: 15px;
+}
+.quantitySelectorTitle--quant-pdp {
+  align-self: center;
+  margin-right: 15px;
+}
+.quantitySelectorContainer--comprar3 {
+  flex-direction: center;
+  align-items: center;
+  margin-top: 5px;
+}
