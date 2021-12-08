@@ -25,7 +25,7 @@
 ![Alt paisagem](https://cdn.discordapp.com/attachments/886987574239977512/910870094492631080/Captura_de_Tela_2021-11-18_as_09.32.29.png)
 8. Agora eu coloquei ele na minha lojinha da vtex.
 9. Após colocar ele na lojinha eu mexi no css dele, fui no arquivo do meu modal e coloquei os nomes para editar através do CSS_HANDLES.
-10. Após isso eu fui na store-theme e entro do css eu criei um arquivo com o nome avantivtexio.nome-do-app.css e lá eu mexi em toda estilização do meu app.
+10. Após isso eu fui na store-theme e entro do css eu criei um arquivo com o nome nomedaempresavtexio.nome-do-app.css e lá eu mexi em toda estilização do meu app.
 11. Foi feito o App para mobile e desktop com suas modificações no CSS.
 12. Desktop: 
 ![Alt paisagem](https://media.discordapp.net/attachments/886987574239977512/910872630624653412/Captura_de_Tela_2021-11-18_as_09.42.33.png)
